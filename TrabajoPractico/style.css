@@ -1,0 +1,139 @@
+/* custom.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Negro oscuro */
+    color: #ffffff;
+}
+
+/* Navegación */
+.navbar-dark .navbar-brand {
+    color: #ff9800; /* Naranja */
+}
+
+.navbar-dark .nav-link {
+    color: #ffffff;
+}
+
+.profile-photo-container {
+    margin: 20px 0; /* Espaciado arriba y abajo de la imagen */
+}
+
+.profile-photo {
+    width: 150px; /* Ajusta el tamaño según tu preferencia */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+    border: 3px solid #007bff; /* Borde que combina con el tema */
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ff9800;
+}
+
+/* Sección "Quién Soy" */
+section {
+    padding: 60px 0;
+}
+
+#about h2, #skills h2, #education h2, #services h2, #work h2, #contact h2 {
+    color: #ff9800;
+}
+
+#about p {
+    color: #dddddd;
+}
+
+.btn-primary {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+.btn-primary:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
+
+/* Sección de Habilidades */
+.bg-light {
+    background-color: #1f1f1f !important; /* Negro intermedio */
+}
+
+.progress-bar {
+    background-color: #ff9800; /* Naranja */
+}
+
+/* Sección de Estudios */
+#education {
+    padding: 60px 0;
+}
+
+#education h4 {
+    color: #ff9800; /* Color del encabezado */
+}
+
+#education p {
+    color: #dddddd; /* Color del texto */
+}
+
+/* Sección de Servicios */
+.card {
+    background-color: #1f1f1f;
+    border: 1px solid #ff9800; /* Borde naranja */
+}
+
+.card-title {
+    color: #ff9800;
+}
+
+.card-text {
+    color: #dddddd;
+}
+
+.card:hover {
+    background-color: #292929; /* Un poco más claro al pasar el ratón */
+}
+
+/* Sección de Trabajos Recientes */
+#work p {
+    color: #dddddd;
+}
+
+/* Sección de Contacto */
+.form-control {
+    background-color: #292929;
+    color: #ffffff;
+    border: 1px solid #ff9800;
+}
+
+.form-control:focus {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #e68900;
+}
+
+/* Botón de Enviar */
+button[type="submit"] {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+button[type="submit"]:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ff9800;
+}
+
+footer a:hover {
+    color: #e68900;
+}
